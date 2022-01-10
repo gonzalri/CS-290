@@ -9,17 +9,17 @@
   </head>
   <body>
   
-  <h1>Heading 1</h1>
-  <h2>Heading 2</h2>
-  <h3>Heading 3</h3>
-  <h4>Heading 4</h4>
-  <h5>Heading 5</h5>
-  <h6>Heading 6</h6>
-  <p>This is a paragraph.</p>
+  <h1>Page Header</h1>
+  <h2>Using a Full URL File Path (absolute)</h2>
+  <img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain" style="width:300px">
+  <h2>Using a Relative File Path</h2>
+  <img src="/images/picture.jpg" alt="Mountain" style="width:300px">
+  <h3>Paragraph Header</h3>
+  <p>This is a paragraph. <br> To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
   <ol type="1">
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
+    <li><a href="https://example.com">Website</a></li>
+    <li><a href="mailto:m.bluth@example.com">Email</a></li>
+    <li><a href="tel:+123456789">Phone</a></li>
   </ol>
   
   </body>
