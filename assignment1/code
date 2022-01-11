@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Fantasy Football Advising">
+  <meta name="author" content="Ricardo Gonzalez">
+  <title>Fantasy Football Advising</title>
+ </head>
+ <body>
+  <a href="#contact">Contact Us</a>
+  <h1 id="top">Fantasy Football Advising</h1>
+  <h2>About Me</h2>
+  <img src="https://i.postimg.cc/nhRc1ZSK/Fantasy-Website-pic.jpg" alt="Mountain" style="width:300px">
+  <p>I have played football football for over 7 years. <br> In that span I have had the oppurtunity to make <br> the playoffs 5 out of 7 years. And have have won <br> one championship.</p>
+  <h2>How to Play Fantasy Football</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/JJmnJm_uFvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
+  <h3>Fantasy Football League Members</h3>
+  <img src="Fantasy_webpage_pic2.jpg" alt="Fantasy League Members" width="500" height="600">
+  <p>This is my fantasy football and all it's members. <br> I have had the pleasure of playing in the same league for over 7 years.</p>
+  <table border="1">
+  <caption>Win/Loss Record</caption>
+  <tr>
+  <th>2021</th><th>2022</th>
+  </tr>
+  <tr>
+  <td>6-7</td><td>8-6</td>
+  </tr>
+  </table>
+  <br>
+  <table>
+  <thead>
+    <tr>
+      <th>Session Type</th>
+      <th>Pricing</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Single Session</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>Weekly Sessions</td>
+      <td>$300</td>
+    </tr>
+  </tbody>
+  <tfoot>
+   <tr>
+    <td colspan="2">Total Sessions: 21</td>
+    </tr>
+  </tfoot>
+</table>
+<h4 id="contact">Contact us</h4>
+  <ol type="1">
+    <li><a href="https://www.linkedin.com/in/ricardo-gonzalez-879325226/">Linkedin</a></li>
+    <li><a href="mailto:ricard.ocho8@gmail.com">Email</a></li>
+    <li><a href="tel:+1541207175">Phone</a></li>
+  </ol>
+</body>
+</html>
+  
 
