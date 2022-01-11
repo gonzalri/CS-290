@@ -1,1 +1,1 @@
-
+For my web app I created a website that sells fantasy football advising services. It gives some information about myself along with other useful information about my abilities and what fantasy football is. I included images and videos and under those images I also added some captions. I also included the prices of my services along with hyperlinks and how to contact me.
