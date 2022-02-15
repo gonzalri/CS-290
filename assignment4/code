@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <style>
+            
+
+            div {
+                background-color: rgb(78, 134, 81);
+                border: 2px solid rgb(255, 255, 255);
+                color: black;
+                }
+            /* #myHeader {
+                background-color: rgb(78, 134, 81);
+                border: 2px solid rgb(255, 255, 255);
+                color: black;
+                padding: 40px;
+                text-align: center;
+                font-style: normal;
+                font-variant: small-caps;
+                font-weight: normal;
+                } */
+            #overflowExample {
+                background: rgb(78, 134, 81);
+                color: rgb(0, 0, 0);
+                padding: 15px;
+                width: 852px;
+                height: 100px;
+                margin-left: 55px;
+                margin-top: 65px;
+                overflow: scroll;
+                border: 1px solid rgb(255, 255, 255);
+                float: left;
+            }
+            body {
+                display: inline;
+                background-color: rgb(0, 0, 0);
+            }
+            
+            .dropdown {
+                position: relative;
+                display: inline-block;
+                }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                padding: 12px 16px;
+                z-index: 1;
+                }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+                }
+            .div1 {
+                background-color: rgb(78, 134, 81);
+                width: 800px;
+                height: 458px;
+                margin-right: 55px;
+                margin-top: 65px;  
+                padding: 15px;
+                border: 1px solid rgb(255, 255, 255);
+                resize: vertical;
+                overflow: auto;
+                float: right;
+                position: relative;
+        
+                
+                }
+            
+            .div2 {
+                background-color: rgb(78, 134, 81);
+                border: 2px solid rgb(255, 255, 255);
+                color: black;
+                padding: 40px;
+                width: 800px;
+                margin-left: 55px;
+                margin-top: 215px;
+                height: 250px;
+                overflow: hidden;
+                position: relative;
+                }
+            .clearfix {
+                overflow: auto;
+                margin-left: 55px;
+                margin-right: 55px;
+                margin-top: 25px;
+                position: relative;
+                }      
+
+            
+            #navlist {
+                background-color: rgb(78, 134, 81);
+                position: absolute;
+                width: 100%;
+                }
+                
+            
+            #navlist a {
+                float:left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 12px;
+                text-decoration: none;
+                font-size: 15px;
+                }
+            
+            .navlist-right{
+                float:right;
+                }
+        
+            
+            #navlist a:hover {
+                background-color: #ddd;
+                color: black;
+                }
+                
+            
+            .search input[type=text]{
+                width:300px;
+                height:25px;
+                border-radius:25px;
+                border: none;
+                }
+                
+            .search{
+                float:right;
+                margin:7px;
+                }
+                
+            .search button{
+                background-color: #000000;
+                color: #f2f2f2;
+                float: right;
+                padding: 5px 10px;
+                margin-right: 16px;
+                font-size: 12px;
+                border: none;
+                cursor: pointer;
+                } 
+        
+            
+            
+        </style>
+    
+    </head>
+    
+    <body>
+
+        <!-- <h1 id="myHeader">Generic Dating Site</h1> -->
+        <h1 style="text-align:center; color:black;" id="hidden">Generic Dating Site</h1>
+
+        <div id="navlist">
+            <a href="">Home</a>
+            <a href="">Search Users</a>
+            <a href="">Help</a>
+            <a href="">About Us</a>
+            <a href="">Contact Us</a>
+            
+            <!-- search bar right align -->
+            <div class="search">
+                <form action="">
+                    <input type="text"
+                        placeholder=" Search Website"
+                        name="search">
+                    <button>
+                        <i class="fa fa-search"
+                            style="font-size: 18px;">
+                        </i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="content">
+        </div>
+        
+        <div id="overflowExample">Sample text for scroll fkhsdf g sg gfgdfhgdf hdfhdhdh dfhdfhdsh dfhdh dfhsdh dshdsh dsfhdh 44ffffff cvgxfhxhxghx hd hfsdhshsghsf gfhsfh   dshklhdfkgkdfjg dkg jdfkgjdkgjdfkgjdfkgjdkflgjdfkgjdfkgjdkfgjdfkg   fdkgjdfgkjdfgkjdfgk jklgfj dklgjdklf gjdfklgj klfgjdklfgjdfklgjsdfklgjk j klfjs dfklgjdfkgjsdkflgj dfklg jdklg jdkfg jdfklg jdfgkljf dfkgjdlfkgjdfklgjdlkgjdsfgkj j klgj dsfklgj sdfkl gljdsfg kdjf gdfk jgdfkl gjsdfkg jsdfgkl jdsfgk sdjfgklsdfjgkd fgjd klgjsdfgkl jsdfg xgdfh dsfgdfgdfg dfg dfg sdfgdfgdsfgdfg sdf gdsfsdfgdf gdfgsdfh dfh dfh dfh dsfh  fhdfh dfh d fhdhhfd sdf hsdhshsh sdf hsdhdfh sdh dsfhsdf hds fhdf hdhf dhfdfh dfs hdfh dsf h hd hfdsf hsd fhsdfh sd fhdh hf hdhd 
+        </div>
+        
+            <script type="text/javascript">
+                
+                var num = 30;
+                var globalexample = "This is an example of a global variable string";
+                console.log(globalexample) 
+                
+                function fn1()
+                {
+                    var username = document.getElementById("text1").value;
+                    var password = document.getElementById("text2").value;
+                    alert('Your username is: ' +username);
+                    alert('Your password is: ' +password);
+                }
+                
+            
+                let count = 0;
+                while(count < num) {
+                    console.log("count" + count);
+                    count = count + 1;
+                }
+                
+                var myName = window.prompt("whats your name?");
+                
+                console.log("Hello", myName);
+
+
+            // this won't work becayse the script had to be after the paragraph p    
+            //     let person1 = {
+            //     name: 'Ricardo',
+            //     city: 'Corvallis',
+            //     age: 26,
+            //     isCool: true,
+            //     updateAge : function (){
+            //         return ++person1.age;
+            //     }
+            
+            // };
+            // // document.getElementById("profile").innerHTML = person1;
+            // document.getElementById("profile1").innerHTML = person1.name + ", " + person1.city + ", " + person1.age;
+            </script>
+
+        <div class="div1">
+            <p class="clear">Login here:</p>
+            <input id="text1" placeholder="username">
+            <br>
+            <input type="password" id="text2" placeholder="password">
+            <button onclick="fn1()" id = "btn1">Click me</button>
+
+            <p id="ad"></p>
+            <p id="carcolors"></p>
+            
+        </div>
+
+        <div class="div2">
+            <p>Dating Profile:</p>
+            <img src="https://i.ibb.co/cY4gR2K/IMG-4233.jpg" alt="IMG-4233" width = "130" height = "200">
+            <p id="profile1"></p>
+            <!-- <p id= "profile"></p>  This line didn't work because I needed to call each attribute of the object individually -->
+                            
+                        
+        </div>
+            <parenthesis> 
+                <p>These two paragraphs generates inline boxes, and it results in</p>
+
+         </div>
+                </button>
+                </p> 
+
+        </div>
+        <script>
+        
+            let ad = {
+                item: 'Cars for sale',
+                where: 'in your area!',
+            };
+            document.getElementById("ad").innerHTML = ad.item + " " + ad.where;
+
+            let person1 = {
+                name: 'Ricardo',
+                city: 'Corvallis',
+                age: 26,
+                isCool: true,
+                updateAge : function (){
+                    return ++person1.age;
+                }
+            
+            };
+            // document.getElementById("profile").innerHTML = person1;
+            document.getElementById("profile1").innerHTML = person1.name + ", " + person1.city + ", " + person1.age;
+            
+
+            if(person1.isCool == true) {
+                console.log(person1.name + "is cool!!");
+            }
+            else { (person1.isCool == false)
+                console.log(person1.name + "is not cool!") 
+            }
+
+
+            if(person1.city == 'Corvallis') {
+                console.log("You are from Corvallis!") 
+            } 
+            else {
+                console.log("You are not from Corvallis! Boo!") 
+            }
+            let person = new Object();
+    
+            person.name = "Ricardo";
+            person.city = "Corvallis";
+            person.age = 26;
+            person.updateAge = function (){
+                return ++person.age;
+            }
+            
+            console.log(person.age);
+            person.updateAge();
+            console.log(person.age);
+    
+            let selectedColors = ['red', 'blue','green','yellow','black','white'];
+            selectedColors.forEach(element => {
+                document.getElementById("carcolors").innerHTML = element;
+                console.log(element);
+            })
+        </script>
+        <script
+        src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+        <script src = "test.js"></script>
+    </body>
+
+    </html>
